@@ -32,13 +32,3 @@ Your app is ready to be deployed!
 ![image](https://github.com/rashi12122001/Cyberbunnies/assets/74211043/8f69c23a-dbf0-4f5a-8786-b78426102823)
 ![image](https://github.com/rashi12122001/Cyberbunnies/assets/74211043/ec053b5d-bd05-4085-ae13-603c3b2dcb21)
 
-
-
-
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
