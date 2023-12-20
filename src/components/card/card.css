@@ -1,0 +1,31 @@
+.card{
+    margin-top: 2rem;
+    width: 15rem;
+    /* height:15rem;  */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    background-color:rgba(250, 235, 215, 0.118);
+    border: 7px solid var(--purply);
+    box-shadow: 0px 4px 10px 2px rgb(140, 45, 195);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+}
+.card span:nth-of-type(2){
+    color: var(--lightpurply);
+    font-size: 16px;
+}
+.card >img{
+    /* transform: scale(0.6); */
+    margin-bottom: auto;
+}
+.c-button{
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}

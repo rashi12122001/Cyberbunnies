@@ -1,0 +1,77 @@
+
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+    justify-content:center;
+}
+.i-left{
+    margin-top: 30px;
+    display:flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+.i-name>:nth-child(1){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    color:var(--white);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    color:var(--purply);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(3){
+    font-weight: 300;
+    font-size: 20px;
+    color:white;
+    margin-top: 10px;
+}
+.i-button{
+    width:200px;
+    display: flex;
+    justify-content: center;
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right::before{
+    content: "";
+    border-radius: 50%;
+    position: relative;
+    filter: blur(212px);
+    background: radial-gradient(rgb(140 45 195 / 39%), transparent);
+}
+.i-right {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    /* background: linear-gradient(to right, #00c6fb, #005bea); Adjust colors as needed */
+  }
+  #canvas3d{
+    margin:0;
+    width:"600"; 
+    height:"800";
+    display: flex !important;
+    justify-content: flex-start !important;
+    width: 80% !important; height: 80% !important; align-items:center !important;
+  }
+  .bunny-blur{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    
+  }
+  /* <canvas id="canvas3d" width="486" height="681" data-engine="three.js r149" style="display: flex; width: 70%; height: 70%; align-items:center; "></canvas> */

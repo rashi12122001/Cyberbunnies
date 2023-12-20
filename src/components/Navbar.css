@@ -1,0 +1,45 @@
+@import '../App.css';
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left{
+    flex:1;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 2rem;
+}
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.n-list{
+    flex: 10;
+    list-style: none;
+    list-style-type: none;
+    color: white;
+}
+.n-list>ul{
+    display: flex;
+    gap:2rem;
+    margin-right: 4rem;
+    list-style: none;
+    justify-content:flex-end;
+}
+
+.n-list>ul>li:hover{
+cursor: pointer;
+color: blueviolet;
+}
+.image_logo{
+    height: 140px;
+}

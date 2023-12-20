@@ -1,0 +1,41 @@
+:root
+{
+    --white : #eff3ff;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --purply:rgb(140, 45, 195);
+    --lightpurply:rgb(236, 149, 253);
+}
+body{
+  background-color: #17131a;
+}
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--white);    
+}
+.button{
+  border-radius: 30px;
+  border: none;
+  color: var(--white); 
+  padding: 11px 26px 11px 26px;
+  background: linear-gradient(rgb(140, 45, 195),rgb(156, 71, 172));
+  box-shadow: 0px 4px 10px 2px rgb(140, 45, 195);
+  transition: color 0.3s ease-in-out;
+}
+.button:hover{
+background: var(--white); 
+color:rgb(156, 71, 172) ;
+}
+.blur{
+  background:radial-gradient(rgba(140, 45, 195, 0.721),rgba(155, 71, 172, 0.726));
+  position: relative;
+  border-radius: 50%;
+  filter:blur(225px);
+  z-index: -9;
+}
+
+  
