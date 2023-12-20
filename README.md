@@ -30,5 +30,6 @@ Your app is ready to be deployed!
 
 # UI images:-
 ![image](https://github.com/rashi12122001/Cyberbunnies/assets/74211043/8f69c23a-dbf0-4f5a-8786-b78426102823)
+![image](https://github.com/rashi12122001/Cyberbunnies/assets/74211043/ddde7b49-362b-474b-94f2-a2fd6c8d98bf)
 ![image](https://github.com/rashi12122001/Cyberbunnies/assets/74211043/ec053b5d-bd05-4085-ae13-603c3b2dcb21)
 
