@@ -7,7 +7,7 @@ import bow from '../../img/bow_bunny.png';
 import Card from '../card/Card';
 function Posts() {
   return (
-    <div className="posts">
+    <div className="posts" id='#posts'>
 <div className="heading">
 Explore
 </div>

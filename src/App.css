@@ -8,6 +8,7 @@
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
     --purply:rgb(140, 45, 195);
     --lightpurply:rgb(236, 149, 253);
+    --font_purple:rgb(156, 71, 172);
 }
 body{
   background-color: #17131a;

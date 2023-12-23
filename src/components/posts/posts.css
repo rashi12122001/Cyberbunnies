@@ -19,6 +19,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
     
 }
 .posts{
@@ -41,7 +42,9 @@ justify-content: center;
 }
 .cards{
     position: relative;
-    
+}
+.card:hover{
+    transform: scale(1.2);
 }
 .cards>*{
     position: absolute;
