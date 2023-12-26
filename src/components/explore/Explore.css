@@ -8,6 +8,7 @@
     flex-direction: column;
     gap: 2rem;
     position: relative;
+    --swiper-theme-color: rgb(140, 45, 195);
 }
 div.Heading{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
@@ -52,6 +53,19 @@ div.Heading{
     background: linear-gradient(rgb(140, 45, 195),rgb(156, 71, 172));
     box-shadow: 0px 4px 10px 2px rgb(140, 45, 195);
     border-radius: 20px;
+}
+.e-button{
+    background-color: aliceblue;
+    color: blueviolet;
+    border-radius:20px;
+    box-shadow: none;
+    border:3px solid aliceblue;
+    margin-top: 8px;
+
+}
+.e-button a{
+text-decoration: none;
+
 }
 .testimonial>img{
     width: 6rem;

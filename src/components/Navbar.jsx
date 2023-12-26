@@ -12,8 +12,8 @@ export default function customNavbar() {
 <div className="n-list">
 <ul>
 <li>Home</li>
-    <li>Posts</li>
-    <li>Articles</li>
+    <li>News</li>
+    <li>Blog</li>
     <li>Contact Us</li>
 </ul>
 </div>
