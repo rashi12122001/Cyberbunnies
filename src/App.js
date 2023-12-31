@@ -1,10 +1,11 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
 import CustomNavbar from './components/Navbar'; // Correct import statement with a different name
 import Intro from './components/intro/Intro';
 import Posts from './components/posts/Posts';
 import Stats from './components/Stats/Stats';
 import Explore from './components/explore/Explore';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
      <Posts/>
      <Stats/>
      <Explore/>
+     <Contact/>
+     <Footer/>
     </div>
   );
 }
