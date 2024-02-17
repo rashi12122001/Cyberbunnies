@@ -6,12 +6,45 @@
       /* scroll */
   padding-top: 3rem;
 }
+.contact-form::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    height: 400px;
+    background: rgba(127, 15, 179, 0.459);
+    border-radius: 50%;
+    filter: blur(300px);
+}
 
 .c-right{
     display: flex;
     justify-content: center;
     position: relative;
     flex: 1;
+}
+.blurry{
+    content: "";
+    border-radius: 50%;
+    position: relative;
+    filter: blur(212px);
+    background: radial-gradient(rgb(140 45 195 / 39%), transparent);
+}
+
+
+div.Heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    color: var(--white);
+    font-weight: bold;
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding: 5px;
 }
 
 .c-right>form
@@ -37,9 +70,9 @@ textarea{
     height: 4rem!important;
 }
 
-.c-blur1{
-    top: 1rem;
-    left: 8rem;
+.user{
+    border: 4px solid purple !important;
+    
 }
 
 @media screen and (max-width: 480px) {

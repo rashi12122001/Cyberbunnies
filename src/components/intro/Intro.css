@@ -63,8 +63,9 @@
     margin:0;
     width:"600"; 
     height:"800";
-    display: flex !important;
-    justify-content: flex-start !important;
+    /* display: none !important; */
+    /* display: flex;  !important; */
+    /* justify-content: flex-start !important; */
     width: 80% !important; height: 80% !important; align-items:center !important;
   }
   .bunny-blur{
@@ -74,4 +75,19 @@
     height: 400px;
     
   }
+  @media screen and (max-width: 900px) {
+    .intro {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    canvas#canvas3d{
+        height: 60% !important;
+    }
+}
+@media screen and (max-width: 430px) {
+.i-right{
+    margin-top: 50px;
+    }
+
+}
   /* <canvas id="canvas3d" width="486" height="681" data-engine="three.js r149" style="display: flex; width: 70%; height: 70%; align-items:center; "></canvas> */
