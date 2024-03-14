@@ -1,19 +1,24 @@
 .card{
     margin-top: 2rem;
     width: 15rem;
+    width: 10rem;
+    height: 13rem;
     /* height:15rem;  */
     position: absolute;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
     background-color:rgba(250, 235, 215, 0.118);
     border: 7px solid var(--purply);
     box-shadow: 0px 4px 10px 2px rgb(140, 45, 195);
     border-radius: 20px;
     padding: 0px 26px 2rem 26px;
+    gap: 1rem;
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px; 
 }
 .card span:nth-of-type(2){
     color: var(--lightpurply);
@@ -21,6 +26,7 @@
 }
 .card >img{
     /* transform: scale(0.6); */
+    width: 250px;
     margin-bottom: auto;
 }
 .c-button{
@@ -35,3 +41,19 @@
       width: auto;
     }
   }
+
+  .card span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 16px;
+  }
+  .card > img {
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+  }
+
+   
+  @media screen and (max-width: 480px){
+    .card{
+      width: auto;
+    }
+  } 

@@ -14,7 +14,7 @@ function App() {
       {/* Other components or content */}
      <Intro/>
      <Posts/>
-     <Stats/>
+     {/* <Stats/> */}
      <Explore/>
      <Contact/>
      <Footer/>

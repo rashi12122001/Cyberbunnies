@@ -12,40 +12,101 @@ function Posts() {
     type: "spring",
   };
   return (
-    <div className="posts" id='#posts'>
-<div className="heading">
-Explore
-</div>
-<div className="writeup">Look what bunnies are learning about!</div>
-<div className="cards">
-  <div className='card_holder'>
-  <motion.div
+//     <div className="posts" id='#posts'>
+// <div className="heading">
+// Explore
+// </div>
+// <div className="writeup">Look what bunnies are learning about!</div>
+// <div className="cards">
+//   <div className='card_holder'>
+//   <motion.div
+//           initial={{ left: "25rem" }}
+//           whileInView={{ left: "14rem" }}
+//           transition={transition}
+//         >
+//     <Card emoji={heart} 
+//     heading={'Learn'}
+//     detail={"Learn about wifi security,hacking,protecting and more"}
+//     />
+//      </motion.div>
+//   </div>
+//   {/* sec card */}
+//   <div style={{left: '22rem'}} className='card_holder'>
+//     <Card emoji={sleepy} 
+//     heading={'Test'}
+//     detail={"Test your knowlege by challenging the smartest bunny"}
+//     />
+//   </div>
+//   {/* 3rd card */}
+//   <div style={{left: '44rem'}} className='card_holder'>
+//     <Card emoji={wink} 
+//     heading={'Network'}
+//     detail={"Connect with other bunnies to grow more in the field of Cybersecurity"}
+//     />
+//   </div>
+// </div>
+//     </div>
+
+
+
+
+ <div className="services" id="services">
+      {/* left side */}
+      <div className="awesome">
+        {/* dark mode */}
+        <span >Explore</span>
+        <spane >
+        Look what bunnies are learning about!
+        </spane>
+        <div className=".post-blur"></div>
+      </div>
+      {/* right */}
+      <div className="cards">
+        {/* first card */}
+        <motion.div
           initial={{ left: "25rem" }}
           whileInView={{ left: "14rem" }}
           transition={transition}
         >
-    <Card emoji={heart} 
-    heading={'Learn'}
-    detail={"Learn about wifi security,hacking,protecting and more"}
-    />
-     </motion.div>
-  </div>
-  {/* sec card */}
-  <div style={{left: '22rem'}} className='card_holder'>
-    <Card emoji={sleepy} 
-    heading={'Test'}
-    detail={"Test your knowlege by challenging the smartest bunny"}
-    />
-  </div>
-  {/* 3rd card */}
-  <div style={{left: '44rem'}} className='card_holder'>
-    <Card emoji={wink} 
-    heading={'Network'}
-    detail={"Connect with other bunnies to grow more in the field of Cybersecurity"}
-    />
-  </div>
-</div>
+          <Card
+            emoji={heart}
+            heading={"Design"}
+            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+          />
+        </motion.div>
+        {/* second card */}
+        <motion.div
+          initial={{ left: "-11rem", top: "12rem" }}
+          whileInView={{ left: "-4rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={sleepy}
+            heading={"Developer"}
+            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+          />
+        </motion.div>
+        {/* 3rd */}
+        <motion.div
+          initial={{ top: "19rem", left: "25rem" }}
+          whileInView={{ left: "12rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={wink}
+            heading={"UI/UX"}
+            detail={
+              "Lorem ispum dummy text are usually use in section where we need some random text"
+            }
+            color="rgba(252, 166, 31, 0.45)"
+          />
+        </motion.div>
+        <div
+          className="blur s-blur2"
+          style={{ background: "var(--purple)" }}
+        ></div>
+      </div>
     </div>
-  )
+  ); 
 }
 export default Posts

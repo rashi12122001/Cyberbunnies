@@ -6,19 +6,19 @@ const Stats = () => {
     <div className="experience" id='experience'>
       <div className="achievement">
         {/* darkMode */}
-        <div className="circle" style={{color:"#9760bb"}}>5+</div>
-        <span  style={{color:"rgb(156, 71, 172);"}}>years </span>
-        <span>Experience</span>
+        <div className="circle" style={{color:"#9760bb"}}>500+</div>
+        <span  style={{color:"rgb(156, 71, 172);"}}>Cyber </span>
+        <span>Users</span>
       </div>
       <div className="achievement">
         <div className="circle" style={{color:"#9760bb"}}>20+</div>
-        <span  style={{color:"rgb(156, 71, 172);"}}>completed </span>
-        <span>Projects</span>
+        <span  style={{color:"rgb(156, 71, 172);"}}>Latest </span>
+        <span>Courses</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color:"#9760bb"}}>5+</div>
-        <span  style={{color:"rgb(156, 71, 172);"}}>companies </span>
-        <span>Work</span>
+        <div className="circle" style={{color:"#9760bb"}}>4+</div>
+        <span  style={{color:"rgb(156, 71, 172);"}}>News </span>
+        <span>Letters</span>
       </div>
     </div>
   );

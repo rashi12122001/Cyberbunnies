@@ -9,14 +9,15 @@
 .contact-form::before {
     content: "";
     display: flex;
+    box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     position: absolute;
     height: 400px;
     background: rgba(127, 15, 179, 0.459);
     border-radius: 50%;
-    filter: blur(300px);
+    filter: blur(200px);
 }
 
 .c-right{
