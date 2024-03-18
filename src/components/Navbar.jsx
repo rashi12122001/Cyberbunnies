@@ -11,7 +11,7 @@ export default function customNavbar() {
 <div className="n-right">
 <div className="n-list">
 <ul>
-<li>Home</li>
+<li><a href=""></a>Home</li>
     <li>News</li>
     <li>Blog</li>
     <li>Contact Us</li>
