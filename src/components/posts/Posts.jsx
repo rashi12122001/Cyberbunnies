@@ -58,10 +58,10 @@ function Posts() {
         <spane >
         Look what bunnies are learning about!
         </spane>
-        <div className=".post-blur"></div>
+        {/* <div className="post-blur"></div> */}
       </div>
       {/* right */}
-      <div className="cards">
+      <div className="cards post-blur">
         {/* first card */}
         <motion.div
           initial={{ left: "25rem" }}
@@ -70,8 +70,8 @@ function Posts() {
         >
           <Card
             emoji={heart}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Learn"}
+            detail={"Explore about wifi security,hacking,protecting and more"}
           />
         </motion.div>
         {/* second card */}
@@ -82,8 +82,8 @@ function Posts() {
         >
           <Card
             emoji={sleepy}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Compete"}
+            detail={"Test your knowlege by challenging the smartest bunny"}
           />
         </motion.div>
         {/* 3rd */}
@@ -94,17 +94,13 @@ function Posts() {
         >
           <Card
             emoji={wink}
-            heading={"UI/UX"}
+            heading={"Network"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Connect with other bunnies to grow more in the field of Cybersecurity"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
-        <div
-          className="blur s-blur2"
-          style={{ background: "var(--purple)" }}
-        ></div>
       </div>
     </div>
   ); 

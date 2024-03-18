@@ -20,8 +20,15 @@
     border-radius: 20px;
     padding: 0px 26px 2rem 26px; 
 }
+.services::before{
+  background: radial-gradient(#8c2dc363, #0000);
+    border-radius: 50%;
+    content: "";
+    filter: blur(212px);
+    position: relative;
+}
 .card span:nth-of-type(2){
-    color: var(--lightpurply);
+  color: #d5b7de !important;
     font-size: 16px;
 }
 .card >img{

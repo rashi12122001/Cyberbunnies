@@ -12,6 +12,7 @@
 }
 body{
   background-color: #17131a;
+  box-sizing: border-box;
 }
 .App{
     padding: 0.5rem 3.5rem;

@@ -24,6 +24,7 @@
     height: 90vh;
     margin-bottom: 8rem;
     margin-top: 4rem;
+    box-sizing: border-box;
 }
 .cards::before{
     content: "";
@@ -39,6 +40,7 @@ justify-content: center;
 }
 .cards{
     position: relative;
+    margin: 20px;
 }
 .card:hover{
     transform: scale(1.2);
@@ -46,13 +48,16 @@ justify-content: center;
 .cards>*{
     position: absolute;
 }
-.post-blur{
+.post-blur::before{
+  content: " ";
     display: flex;
     align-items: center;
     width: 400px;
+    margin-top: 20px;
     position: absolute;
     height: 400px;
-    background:purple;
+    background:radial-gradient(rgb(200, 2, 255),rgb(209, 184, 206));
+    filter: blur(200px);
 }
 /* new css */
 .services {
@@ -97,15 +102,7 @@ justify-content: center;
   }
   
   /* blur */
-  .s-blur2 {
-    left: 14rem;
-    top: 8rem;
-  }
-  
-  .s-blur1 {
-    top: 13rem;
-    left: -18rem;
-  }
+ 
   
   @media screen and (max-width: 480px) {
     .posts {

@@ -6,15 +6,14 @@ import Stats from './components/Stats/Stats';
 import Explore from './components/explore/Explore';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-
 function App() {
   return (
     <div className="App">
       <CustomNavbar /> {/* Using the CustomNavbar component */}
       {/* Other components or content */}
      <Intro/>
+     <Stats/>
      <Posts/>
-     {/* <Stats/> */}
      <Explore/>
      <Contact/>
      <Footer/>

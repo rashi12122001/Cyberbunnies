@@ -81,8 +81,13 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
-    canvas#canvas3d{
-        height: 60% !important;
+    #canvas3d{
+        margin: 150px;
+    }
+}
+@media screen and (max-width: 636px) {
+    #canvas3d{
+        display: none !important;
     }
 }
 @media screen and (max-width: 430px) {
