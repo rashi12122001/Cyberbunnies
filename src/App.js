@@ -7,7 +7,7 @@ import Explore from './components/explore/Explore';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Cursor from './components/cursor/Cursor';
-import CustomScroll from 'react-custom-scroll';
+// import CustomScroll from 'react-custom-scroll';
 // import Scroll from './components/scroll/Scroll';
 // import CustomScroll from 'react-custom-scroll';
 function App() {
