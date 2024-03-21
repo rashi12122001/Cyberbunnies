@@ -14,10 +14,6 @@ function App() {
   return (
     <div className="App">
       <Cursor></Cursor>
-      <CustomScroll>
-  your content goes here
-</CustomScroll>
-      {/* <Scroll></Scroll> */}
       <CustomNavbar /> {/* Using the CustomNavbar component */}
       {/* Other components or content */}
      <Intro/>
