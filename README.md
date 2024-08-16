@@ -1,3 +1,6 @@
+#contributoers:-
+1)rashi Arora
+2)candace gwen
 # About
 ![logo_2](https://github.com/rashi12122001/Cyberbunnies/assets/74211043/ec134f9c-4d8f-43db-b6b0-9e18e83f0469)
 
@@ -35,3 +38,9 @@ Your app is ready to be deployed!
 ![image](https://github.com/rashi12122001/Cyberbunnies/assets/74211043/ddde7b49-362b-474b-94f2-a2fd6c8d98bf)
 ![image](https://github.com/rashi12122001/Cyberbunnies/assets/74211043/ec053b5d-bd05-4085-ae13-603c3b2dcb21)
 
+#add these files:-
+1)add using npm install
+* emaijs
+* framer
+* three
+* spline
